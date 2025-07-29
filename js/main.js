@@ -5,7 +5,6 @@ document.getElementById('languageSwitcher').addEventListener('change', function 
     el.textContent = el.getAttribute('data-' + lang);
   });
 });
-
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', function (e) {
     e.preventDefault();
